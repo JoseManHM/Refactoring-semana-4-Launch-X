@@ -46,4 +46,4 @@ describe("ExplorerService", () => {
         const ExplorersUsernamesWithNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
         expect(ExplorersUsernamesWithNode[0]).toBe("ajolonauta1");
     });
-})
+});
