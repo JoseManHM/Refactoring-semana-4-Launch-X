@@ -34,7 +34,7 @@ app.get("/v1/fizzbuzz/:score", (req, res) => {
     const number = req.params.score;
     const applyValidationInNumber = ExplorerController.getValidationInNumber(number);
     res.json({score: number, trick: applyValidationInNumber});
-})
+});
 
 app.listen(port, () => {
     console.log(`Fizzbuzz API in localhost: ${port}`);

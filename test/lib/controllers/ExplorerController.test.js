@@ -19,5 +19,5 @@ describe("ExplorerController tests", () => {
     test("Get validation of fizzbuzz score", () => {
         const applyValidationInNumber = ExplorerController.getValidationInNumber(3);
         expect(applyValidationInNumber).toBe("FIZZ");
-    })
+    });
 });
